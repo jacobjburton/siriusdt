@@ -1,6 +1,20 @@
+html
+{
+    box-sizing: border-box;
+    background: #12450E;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
 body
 {
-    background-color: #12450E;
+    margin: 0;
+}
+
+*, *:before, *:after
+{
+    box-sizing: inherit;
 }
 
 #navbar
@@ -8,27 +22,71 @@ body
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #12450E;
+    background-color: #12500E;
     width: 100vw;
 }
 
 nav
 {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.navlinks
+#title
+{
+    text-decoration: none;
+    /* margin-left: 200px; */
+    padding: 10px;
+    color: white;
+    font-size: 1.5em;
+    /* font-style: italic; */
+    /* text-shadow: 3px 3px 3px gray; */
+}
+
+#logo
+{
+    height: 60px;
+    width: 60px;
+}
+
+#titleWrapper
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.navMenu
 {
     display: flex;
     text-decoration: none;
     list-style: none;
+    /* margin: auto; */
+    justify-content: space-between;
+    align-items: center;
 }
 
-a
+.navMenu:last-child
 {
+    margin-right: 200px;
+}
+
+.navLinks
+{   
+    display: flex;
+}
+
+li a
+{
+    padding: 20px;
     text-decoration: none;
-    color: darkgrey;
-    margin-left: 20px;
+    color: white;
+    /* text-shadow: 2px 2px 2px black; */
+    /* margin-left: 20px; */
+
 }
 
 #landing
