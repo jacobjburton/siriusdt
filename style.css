@@ -1,0 +1,39 @@
+body
+{
+    background-color: #12450E;
+}
+
+#navbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #12450E;
+    width: 100vw;
+}
+
+nav
+{
+    display: flex;
+}
+
+.navlinks
+{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: darkgrey;
+    margin-left: 20px;
+}
+
+#landing
+{
+    background: url(./images/PCB.png);
+    background-size: cover;
+    height: 100vh;
+}
